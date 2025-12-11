@@ -1,0 +1,12 @@
+[project]
+name = "budget tool"
+version = "0.1.0"
+description = "CLI för att hålla koll på sin budget"
+dependencies = ["rich"]
+
+[tool.setuptools]
+packages = ["src"]
+
+# Detta låter dig köra kommandot 'run_budget' i terminalen istället för 'python src/main.py'
+[project.scripts]
+budget = "src.main:main"
