@@ -1,0 +1,4 @@
+{
+    "db_path": "data/expenses.json",
+    "log_path": "data/log_path"
+}
