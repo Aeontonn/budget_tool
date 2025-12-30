@@ -4,7 +4,7 @@ Ett CLI baserat verktyg för att hantera personlig ekonomi.
 Programmet låter användaren registrera utgifter, kategorisera dem och spara allt lokalt i en JSON-fil.
 Projektet är byggt med fokus på modulär struktur och ren kod.
 
-## Funktioner 
+## 📦 Funktioner
 
 * **Lägg till utgifter:** Spara belopp, beskrivning och kategori.
 * **Visa lista:** Snygg tabellöversikt över alla sparade utgifter (använder biblioteket `rich`).
@@ -13,7 +13,7 @@ Projektet är byggt med fokus på modulär struktur och ren kod.
 * **Loggning:** Händelser och fel loggas till `data/app.log`.
 * **Konfiguration:** Inställningar laddas från `data/settings.json`.
 
-## Installation
+## 🛠 Installation
 
 För att köra projektet lokalt, följ dessa steg:
 
@@ -54,7 +54,9 @@ PYTHONIOENCODING=utf-8 winpty python -m src.main
 
 
 
-📂 Projektstruktur
+## 📂 Projektstruktur
+
+```text
 budget_tool/
 ├── data/               # Lagrar JSON-data och loggar
 ├── src/
@@ -65,6 +67,7 @@ budget_tool/
 │   └── main.py         # Huvudprogrammet
 ├── pyproject.toml      # Projektkonfiguration
 └── requirements.txt    # Externa bibliotek
+```
 
-📝 Författare
+## 📝 Författare
 Skapat av Anton Hergefeldt som en del av inlämningsuppgift i Python-kursen.
