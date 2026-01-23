@@ -57,24 +57,16 @@ PYTHONIOENCODING=utf-8 winpty python -m src.main
 ## 📂 Projektstruktur
 
 ```text
-stocksimulator/
-│
-├── data/                 # Stores portfolio files (JSON) and logs
+budget_tool/
+├── data/               # Lagrar JSON-data och loggar
 ├── src/
-│   ├── __init__.py
-│   ├── main.py           # Entry point (CLI Menu)
-│   ├── market.py         # Fetches market data from Yahoo Finance (API)
-│   ├── portfolio.py      # Core logic for cash, holdings, and trades
-│   ├── storage.py        # Handles data persistence (Save/Load JSON)
-│   ├── analysis.py       # Analytics using Pandas (Calculates Profit/Loss)
-│   └── utils.py          # Utility functions (Input validation, etc.)
-├── tests/
-│   ├── test_portfolio.py
-│   ├── test_market.py
-│   └── ...
-├── requirements.txt      # List of dependencies
-├── README.md             # Project documentation
-└── .github/workflows/python-app.yml  # CI/CD configuration
+│   ├── utils/          # Hjälpfunktioner (Logger, Config)
+│   ├── file_handler.py # Hanterar läsning/skrivning av filer
+│   ├── finance.py      # Logik och beräkningar
+│   ├── ui.py           # Användargränssnitt (Input/Output)
+│   └── main.py         # Huvudprogrammet
+├── pyproject.toml      # Projektkonfiguration
+└── requirements.txt    # Externa bibliotek
 ```
 
 ## 📝 Författare
