@@ -3,7 +3,8 @@ def calculate_total(expenses):
     total = 0
     for item in expenses:
         total += item['amount']
-        return total
+    
+    return total
 
 def add_expenses(expenses, description, amount, category):
     # lägg till ny utgift i listan

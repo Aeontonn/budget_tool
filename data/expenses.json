@@ -3,5 +3,20 @@
         "description": "Google Gemini AI",
         "amount": 19.0,
         "category": "Prenumeration"
+    },
+    {
+        "description": "wacom intuos medium + drawing glove",
+        "amount": 1000.0,
+        "category": "N\u00f6je"
+    },
+    {
+        "description": "Cola",
+        "amount": 25.0,
+        "category": "mat"
+    },
+    {
+        "description": "Lampa",
+        "amount": 60.0,
+        "category": "N\u00f6je"
     }
 ]
