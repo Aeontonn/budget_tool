@@ -1,7 +1,7 @@
 from rich.console import Console
 from src import file_handler, finance, ui
 from src.utils import config_loader
-from src.utils.logger import BudgetLogger
+from src.core.logger import BudgetLogger
 
 console = Console()
 

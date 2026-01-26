@@ -13,5 +13,10 @@
         "description": "Cola",
         "amount": 25.0,
         "category": "mat"
+    },
+    {
+        "description": "Lampa",
+        "amount": 60.0,
+        "category": "N\u00f6je"
     }
 ]
